@@ -69,7 +69,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calculator.c" />
+    <ClCompile Include="calculator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSY.h" />
+    <ClInclude Include="HS.h" />
+    <ClInclude Include="JDM.h" />
+    <ClInclude Include="KTG.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
